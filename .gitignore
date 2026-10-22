@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.local
+
+# secrets (TinyFish key, admin token) — never commit
+.env
+.env.*
+!.env.example
+
+# local database files (M1) — regenerable, never commit
+server/data/
+
+# OS junk
+Thumbs.db
+.DS_Store
